@@ -29,7 +29,7 @@ const ContactSection = () => {
                                 </div>
                                 <div className="contact-text">
                                     <h4>Email</h4>
-                                    <a href="mailto:your.email@example.com">your.email@example.com</a>
+                                    <a href="mailto:babarsip@gmail.com">babarsip@gmail.com</a>
                                 </div>
                             </div>
                             <div className="contact-item">
@@ -52,18 +52,18 @@ const ContactSection = () => {
                             </div>
                         </div>
                         <div className="social-links">
-                            <a href="https://github.com/yourusername" target="_blank" className="social-link" aria-label="GitHub">
+                            <a href="https://github.com/shahzadsip" target="_blank" className="social-link" aria-label="GitHub">
                                 <Github/>
                             </a>
-                            <a href="https://linkedin.com/in/yourusername" target="_blank" className="social-link" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/babar-s-sipra" target="_blank" className="social-link" aria-label="LinkedIn">
                                 <Linkedin/>
                             </a>
-                            <a href="https://twitter.com/yourusername" target="_blank" className="social-link" aria-label="Twitter">
+                            {/* <a href="https://twitter.com/yourusername" target="_blank" className="social-link" aria-label="Twitter">
                                 <X/>
                             </a>
                             <a href="https://t.me/yourusername" target="_blank" className="social-link" aria-label="Telegram">
                                 <Send/>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                     <div className="contact-form-container">

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Sun, Moon, Menu } from "lucide-react";
 import { useTheme } from "../hooks/useTheme";
+import Link from "next/link";
 
 export default function Navbar() {
   const { theme, toggleTheme } = useTheme();
@@ -20,7 +21,7 @@ export default function Navbar() {
   return (
     <nav className="navbar" id="navbar">
       <div className="nav-container">
-        <div className="logo">DevChain</div>
+        <Link href="/" className="logo">Babar S.</Link>
 
         <ul className="nav-links">
           <li><a href="#about">About</a></li>

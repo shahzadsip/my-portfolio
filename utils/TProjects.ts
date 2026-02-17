@@ -42,4 +42,3 @@ export interface TProject {
   service_provided: string[];
 }
 
-export type TProjectsMap = Record<string, TProject>;

@@ -19,15 +19,15 @@ export const oceanMoneyProject: TProject = {
       'Web3',
       'Machine Learning',
     ],
-    url: '#',
+    url: 'ocean-money',
     github: '#',
   },
 
   images: [
-    { url: '/images/OceanMoney.webp', alt: 'Ocean Money Dashboard' },
-    { url: '/images/OceanMoney.webp', alt: 'AI Trading Bot Interface' },
-    { url: '/images/OceanMoney.webp', alt: 'Asset Management Overview' },
-    { url: '/images/OceanMoney.webp', alt: 'Mobile Banking View' },
+    {  url: "/images/OceanMoney.webp", alt: 'Ocean Money Dashboard' },
+    {  url: "/images/oceanmoney2.webp", alt: 'AI Trading Bot Interface' },
+    {  url: "/images/oceanmoney3.webp", alt: 'Asset Management Overview' },
+    {  url: "/images/ocean-money4.webp", alt: 'Mobile Banking View' },
   ],
 
   achievements: [

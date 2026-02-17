@@ -8,7 +8,7 @@ const FooterSection = () => {
             <div className="footer-content">
                 <div className="footer-main">
                     <div className="footer-brand">
-                        <div className="logo">DevChain</div>
+                        <div className="logo">Babar S.</div>
                         <p className="footer-description">
                             Building the future of decentralized applications, one smart contract at a time.
                         </p>
@@ -35,16 +35,16 @@ const FooterSection = () => {
                         <div className="footer-column">
                             <h4>Connect</h4>
                             <ul>
-                                <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
-                                <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
-                                <li><a href="https://twitter.com/yourusername" target="_blank">Twitter</a></li>
-                                <li><a href="mailto:your.email@example.com">Email</a></li>
+                                <li><a href="https://github.com/shahzadsip" target="_blank">GitHub</a></li>
+                                <li><a href="https://www.linkedin.com/in/babar-s-sipra" target="_blank">LinkedIn</a></li>
+                                <li><a href="#" target="_blank">Twitter</a></li>
+                                <li><a href="mailto:babarsip@gmail.com">Email</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p>&copy; 2025 DevChain. All rights reserved.</p>
+                    <p>&copy; 2025 Babar S.. All rights reserved.</p>
                     <p>Crafted with <Heart className="heart-icon"/> using blockchain technology</p>
                 </div>
             </div>

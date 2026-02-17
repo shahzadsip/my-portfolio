@@ -1,3 +1,4 @@
+import { projects } from "@/utils/projects";
 import { Blocks, FileText, PlayCircle, Rocket } from "lucide-react";
 
 const HeroSection = () => {
@@ -18,7 +19,7 @@ const HeroSection = () => {
                     Turning complex blockchain concepts into elegant, scalable solutions.
                 </p>
                 <div className="hero-buttons">
-                    <a href="#projects" className="btn btn-primary">
+                    <a onClick={()=>console.log(projects)} href="#projects" className="btn btn-primary">
                         <Rocket/>
                         View My Work
                     </a>
