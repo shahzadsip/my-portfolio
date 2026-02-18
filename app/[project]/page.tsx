@@ -2,7 +2,7 @@ import { notFound } from "next/navigation"
 import type { Metadata } from "next"
 import { projects } from "@/utils/projects"
 import ProjectView from "./components/ProjectView"
-
+export const runtime = 'edge';
 export const dynamic = "force-dynamic"
 
 const BASE_URL = "https://babarsip.pages.com"
