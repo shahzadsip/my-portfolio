@@ -12,6 +12,7 @@ type Params = {
   params: { project: string }
 }
 
+
 export async function generateMetadata(
   { params }: Params
 ): Promise<Metadata> {
