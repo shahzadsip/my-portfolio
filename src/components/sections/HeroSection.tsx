@@ -23,7 +23,7 @@ const HeroSection = () => {
                         <Rocket/>
                         View My Work
                     </a>
-                    <a href="YOUR_GOOGLE_DOCS_RESUME_LINK" target="_blank" className="btn btn-secondary">
+                    <a href="/resume.pdf" target="_blank" className="btn btn-secondary">
                         <FileText/>
                         Download Resume
                     </a>
@@ -33,10 +33,13 @@ const HeroSection = () => {
                 <div className="video-placeholder">
                     {/* <!-- Replace with your video embed -->
                     <!-- <iframe src="YOUR_VIDEO_URL" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --> */}
-                    <div style={{textAlign: 'center'}}>
+                    {/* <div style={{textAlign: 'center'}}>
                         <PlayCircle style={{width: '64px', height: '64px', marginBottom: '1rem'}}/>
                         <p>Add your intro video here</p>
-                    </div>
+                    </div> */}
+                    <img src="/image.png" style={{width:'100%',  objectFit:'cover', objectPosition:'top'}}
+  
+/>
                 </div>
             </div>
         </div>

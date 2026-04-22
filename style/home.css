@@ -515,7 +515,7 @@ body[data-theme="dark"] {
             box-shadow: 0 20px 60px rgba(99, 102, 241, 0.2);
             background: var(--bg-secondary);
             border: 1px solid var(--border-color);
-            aspect-ratio: 16/9;
+            aspect-ratio: 16/14;
         }
 
         .video-placeholder {
