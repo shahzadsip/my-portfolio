@@ -46,7 +46,7 @@ const HeroSection = () => {
                         <p>Add your intro video here</p>
                     </div> */}
                     {/* <img src="/image.png" style={{width:'100%',  objectFit:'cover', objectPosition:'top'}}/> */}
-                    <img src="/Portfolio Image.png" style={{width:'100%',  objectFit:'cover', objectPosition:'top'}}/>
+                    <img src="/Portfolio-Image.png" style={{width:'100%',  objectFit:'cover', objectPosition:'top'}}/>
                 </div>
             </div>
         </div>
