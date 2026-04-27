@@ -1,5 +1,5 @@
 import { projects } from "@/utils/projects";
-import { Blocks, FileText, PlayCircle, Rocket } from "lucide-react";
+import { Blocks, Brain, Code2, FileText, PlayCircle, Rocket } from "lucide-react";
 
 const HeroSection = () => {
     return (
@@ -7,8 +7,16 @@ const HeroSection = () => {
         <div className="hero-container">
             <div className="hero-content">
                 <div className="hero-label">
+                    <Brain/>
+                    AI Developer
+                </div>
+                <div className="hero-label">
                     <Blocks/>
                     Blockchain Developer
+                </div>
+                <div className="hero-label">
+                    <Code2/>
+                    Web Application Developer
                 </div>
                 <h1>
                     Building the Future of<br/>
