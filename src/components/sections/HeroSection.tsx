@@ -1,3 +1,4 @@
+'use client'
 import { projects } from "@/utils/projects";
 import { Blocks, Brain, Code2, FileText, PlayCircle, Rocket } from "lucide-react";
 import { useState } from "react";
