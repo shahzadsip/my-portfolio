@@ -1,8 +1,10 @@
 import { Heart } from "lucide-react";
+import VisitorCounter from "./Analytics";
 
 const FooterSection = () => {
     return (
          <footer className="footer">
+           
         <div className="container">
             <div className="bg-pattern-dots"></div>
             <div className="footer-content">
@@ -49,6 +51,7 @@ const FooterSection = () => {
                 </div>
             </div>
         </div>
+         <VisitorCounter/>
     </footer>
     );
 }
